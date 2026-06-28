@@ -1,0 +1,12 @@
+/* 대명DnP 랜딩페이지 — 전역 스타일 */
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:78px}
+body{margin:0}
+
+/* FAQ 아코디언 기본 마커 제거 */
+details>summary{list-style:none}
+details>summary::-webkit-details-marker{display:none}
+
+/* 반응형 — 데스크톱/모바일 전용 요소 전환 */
+@media (max-width:860px){ [data-desk]{display:none!important} }
+@media (min-width:861px){ [data-mob]{display:none!important} }
